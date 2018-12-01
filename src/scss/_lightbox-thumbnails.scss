@@ -1,0 +1,5 @@
+/* ------- FancyBox Thumbnail Styles ------- */
+section#main a.fancybox img {border: 1px solid #333;}
+section#main a.fancybox {float: left; overflow: hidden;
+background: #fff; padding: 6px; border: 1px solid #999; margin: 0 14px 14px 0; -webkit-box-shadow: 1px 1px 4px #999; -moz-box-shadow: 1px 1px 4px #999; box-shadow: 1px 1px 4px #999;}
+section#main a.fancybox:hover {border: 1px solid #333; background: #cda349;}

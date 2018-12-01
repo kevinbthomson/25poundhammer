@@ -1,0 +1,14 @@
+/* ------- Main Navigation Styles ------- */
+header div.menu-main-navigation-menu-container { width: 980px; height: 68px; position: absolute; left: 0; top: 0; margin: 0; padding: 0; }
+header div.menu-main-navigation-menu-container ul {position: relative; left: 358px; list-style: none; height: 68px; margin: 0; padding: 0; font: 16px/22px Helvetica, Arial, sans-serif;}
+header div.menu-main-navigation-menu-container ul li {list-style: none; float: left; line-height: 68px;}
+header div.menu-main-navigation-menu-container ul li a {display: block; float: left; margin: 0; padding: 0 10px; color: #cda349; text-decoration: none; height: 68px; line-height: 68px; }
+
+header div.menu-main-navigation-menu-container ul li a:hover {color: #fff;}
+header div.menu-main-navigation-menu-container ul li a:active {}
+
+header div.menu-main-navigation-menu-container ul li.menu-item-91 a,
+header div.menu-main-navigation-menu-container ul li.menu-item-90 a {margin-left: 10px; padding-left: 22px; background: url(images/photo-icon.png) left top no-repeat;}
+
+header div.menu-main-navigation-menu-container ul li.menu-item-91 a:hover,
+header div.menu-main-navigation-menu-container ul li.menu-item-90 a:hover {background-position: left bottom;}

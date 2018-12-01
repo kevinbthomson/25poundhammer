@@ -1,0 +1,38 @@
+header {
+  position: relative;
+  width: 980px;
+  height: 218px;
+  color: #cda349;
+  background: #334033 url(images/header-bg.jpg) bottom right no-repeat;
+
+  h1 {
+    margin: 0;
+    position: absolute;
+    left: 51px;
+    top: 0;
+    width: 279px;
+    height: 68px;
+    text-indent: -9999em;
+    z-index: 999;
+
+    a {
+      display: block;
+      width: 279px;
+      height: 68px;
+      line-height: 68px;
+      background: url(images/25-logo.jpg) left top no-repeat;
+
+      &:hover {
+        background-position: left bottom;
+      }
+
+      &:active {
+        background-position: left top;
+      }
+    }// /a
+  }// /h1
+}
+
+
+
+header p {position: absolute; right: 646px; bottom: 18px; font-style: italic; font-size: 18px; text-align: right; background: url(images/header-pic.jpg) right center no-repeat; padding: 20px 113px 20px 0; line-height: 26px;}

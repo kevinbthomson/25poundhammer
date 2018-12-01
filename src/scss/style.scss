@@ -1,0 +1,36 @@
+/*!
+Theme Name: 25lbHammer Theme
+Theme URI: http://25poundhammer.com/
+Description: This is custom theme for Joey Mutherfuckin Vernon
+Author: Kevin Thomson
+Author URI: http://kevinbthomson.com/
+Version: 1
+*/
+
+
+
+@import 'normalize';
+
+html {}
+
+body {font: 16px/22px Georgia, "Times New Roman", Times, serif; text-align: center; color: #333; background: url(images/body-bg.jpg) left top repeat-x; }
+
+a {color: #334033; text-decoration: none; }
+a:hover {color: #334033; text-decoration: underline; }
+
+#wrapper {width: 980px; margin: 0 auto 14px auto; text-align: left; background: #fff; overflow: hidden; }
+
+@import 'header';
+@import 'navigation';
+
+@import 'main';
+@import 'lightbox-thumbnails';
+@import 'images';
+
+@import 'contact-form';
+
+@import 'sidebar';
+@import 'footer';
+
+
+@import 'print';

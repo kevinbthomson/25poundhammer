@@ -1,0 +1,13 @@
+/* ------- Main Content Styles ------- */
+section#main {position: relative; width: 600px; min-height: 400px; float: right; padding: 0 14px; background: url(images/main-bg.gif) center center no-repeat; border-left: 1px dashed #ccc; }
+
+section#main p, section#main ul, section#main ol, section#main address, section#main blockquote, section#main h2, section#main h3, section#main h4 {margin: 1em 0; }
+section#main h2, section#main h3, section#main h4 {border-bottom: 1px dashed #ccc; color: #4b0e2f; font-family: "Helvetica Light", Helvetica, Arial, sans-serif; font-weight: normal;}
+section#main h2 {font-size: 32px; padding-bottom: 4px; color: #2b352a; }
+
+section#main h3 {font-size: 18px; }
+section#main ul {list-style: none; }
+
+section#main .meta {font-style: italic; font-size: 12px; background: #e6e6e6; padding: 0 6px; border-radius: 4px; -webkit-box-shadow: inset 1px 1px 2px #ccc; -moz-box-shadow: inset 1px 1px 2px #ccc; box-shadow: inset 1px 1px 2px #ccc; color: #666;}
+section#main .next-posts {font-style: italic; font-size: 12px; background: #e6e6e6; padding: 0 6px; border-radius: 4px; -webkit-box-shadow: inset 1px 1px 2px #ccc; -moz-box-shadow: inset 1px 1px 2px #ccc; box-shadow: inset 1px 1px 2px #ccc; color: #666;}
+section#main .postmetadata {display: none;}

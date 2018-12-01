@@ -1,0 +1,21 @@
+{
+  "name": "25poundhammer",
+  "version": "1.0.0",
+  "description": "personal portfolio website for Joey Vernon, Tattooer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@kevinbthomson",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm-run-all --parallel dev:*",
+    "dev:sass-dev": "node-sass --watch src/scss --output-style compressed --source-map true  src/scss/style.scss --output .",
+    "build": "npm-run-all prod:*",
+    "prod:sass-dev": "node-sass --output-style compressed src/scss/style.scss --output ."
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "npm-run-all": "^4.0.2"
+  }
+}

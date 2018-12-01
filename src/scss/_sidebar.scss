@@ -1,0 +1,8 @@
+/* ------- Sidebar Styles ------- */
+aside {position: relative; top: 18px; width: 322px; padding: 14px 10px; float: left; text-align: right; }
+aside div {margin: 1em 0; }
+aside h3, aside h2 {position: relative; line-height: 28px; margin: 0 0 -.6em 0; padding: 0 6px; font-size: 18px; background: url(images/aside-h3-bg.jpg) right top no-repeat; color: #cda349; font-family: Helvetica, Arial, sans-serif; text-shadow: 1px 1px 4px #000;}
+aside ul {margin: 1em 0; list-style: none; }
+
+aside input#s {border: 1px solid #334033; width: 180px; height: 22px; padding: 0 4px; color: #334033;}
+aside input#s:focus {}
